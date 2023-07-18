@@ -1,0 +1,146 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 15px Helvetica, Sans-Serif;
+  line-height: 20px;
+}
+.clear {
+  clear: both;
+}
+
+/* Page layout */
+#page-wrap {
+  width: 880px;
+  margin: 20px auto 60px;
+  overflow: auto;
+}
+
+/* Heading styles */
+h1 {
+  margin: 30px 0 16px 0;
+  padding: 0 0 16px 0;
+  font-size: 42px;
+  letter-spacing: -2px;
+}
+h2 {
+  margin: 0 0 16px 0;
+  padding: 0 0 16px 0;
+  font-size: 36px;
+  font-weight: normal;
+  letter-spacing: -2px;
+}
+h3 {
+  font-size: 18px;
+  position: relative;
+  font-weight: 300;
+  padding: 0 0 10px 0;
+}
+h3 strong {
+  font-size: 18px;
+  padding: 0 5px 0 0;
+}
+h3 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-style: italic;
+  font-family: Georgia, Serif;
+  font-size: 16px;
+  color: #999;
+  font-weight: normal;
+  padding: 0 0 10px 0;
+}
+h4 {
+  font-size: 16px;
+  position: relative;
+  font-weight: 300;
+  padding: 0 0 10px 0;
+}
+h4 strong {
+  font-size: 16px;
+  padding: 0 5px 0 0;
+}
+h4 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-style: italic;
+  font-family: Georgia, Serif;
+  font-size: 16px;
+  color: #999;
+  font-weight: normal;
+  padding: 0 0 10px 0;
+}
+
+/* Link styles */
+a {
+  color: #454545;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+}
+a:hover {
+  border-bottom-style: solid;
+  color: black;
+}
+
+/* List styles */
+ul {
+  margin: 0 0 0 16px;
+}
+
+/* Objective section styles */
+#objective {
+  width: 650px;
+  float: left;
+  border-up: 1px solid #999;
+}
+#objective p {
+  font-family: Georgia, Serif;
+  color: #666;
+}
+#pic {
+  float: right;
+  margin-left: 5px;
+}
+
+/* Definition list styles */
+dt {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+  width: 105px;
+  float: left;
+}
+dd {
+  width: 730px;
+  float: right;
+  border-left: 1px solid #999;
+  padding: 0 0 0 20px;
+}
+dd a {
+  color: black;
+}
+dd.clear {
+  float: none;
+  margin: 0;
+  height: 15px;
+  border-left: none;
+}
+
+/* Miscellaneous styles */
+div {
+  margin-bottom: 20px;
+}
+.smartmargin {
+  margin: 10px 0 0 0;
+}
+
+/* Print styles */
+@media print {
+  .noprint {
+    display: none;
+  }
+}
